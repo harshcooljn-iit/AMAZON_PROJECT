@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="styles/checkout.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="topbar">
+        <div class="left">
+          <a href="index.html">
+            <img
+              src="images&icons/amazon-logo-black.png"
+              alt=""
+              class="amazon-black-logo"
+            />
+          </a>
+        </div>
+        <div class="mid">
+          Checkout (<span class="items-quantity">0 items</span>)
+        </div>
+        <div class="right">
+          <img src="images&icons/checkout-lock-icon.png" alt="" />
+        </div>
+      </div>
+
+      <div class="center-content">
+        <div class="review-order-text">Review your order</div>
+        <div class="order-info">
+          <div class="product-info-box">
+            <!-- <div class="product-info-card">
+              <div class="delivery-date-box">
+                Delivery Date:
+                <span class="delivery-date">Friday, June 14</span>
+              </div>
+              <div class="info-box">
+                <div class="product-image-box">
+                  <img
+                    src="images&icons/iphone15_plus.jpeg"
+                    alt=""
+                    class="product-image"
+                  />
+                </div>
+                <div class="product-name-quantity-box">
+                  <div class="product-name">iPhone 15 Plus - Apple</div>
+                  <div class="product-price">$699.99</div>
+                  <div class="product-quantity">
+                    Quantity : 1
+                    <button class="update-quantity-button">Update</button>
+                    <button class="delete-item-button">Delete</button>
+                  </div>
+                </div>
+                <div class="delivery-option-box">
+                  Choose a delivery option:
+                  <div class="delivery-options">
+                    <input type="radio" name="delivery-date-option" />
+                    <div class="delivery-date-user-choice">Friday, June 4</div>
+                    <div class="shipping-cost">FREE Shipping</div>
+                  </div>
+                  <div class="delivery-options">
+                    <input type="radio" name="delivery-date-option" />
+                    <div class="delivery-date-user-choice">Friday, June 4</div>
+                    <div class="shipping-cost">FREE Shipping</div>
+                  </div>
+                  <div class="delivery-options">
+                    <input type="radio" name="delivery-date-option" />
+                    <div class="delivery-date-user-choice">Friday, June 4</div>
+                    <div class="shipping-cost">FREE Shipping</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-info-card">
+              <div class="delivery-date-box">
+                Delivery Date:
+                <span class="delivery-date">Friday, June 14</span>
+              </div>
+              <div class="info-box">
+                <div class="product-image-box">
+                  <img
+                    src="images&icons/iphone15_plus.jpeg"
+                    alt=""
+                    class="product-image"
+                  />
+                </div>
+                <div class="product-name-quantity-box">
+                  <div class="product-name">iPhone 15 Plus - Apple</div>
+                  <div class="product-price">$699.99</div>
+                  <div class="product-quantity">
+                    Quantity : 1
+                    <button class="update-quantity-button">Update</button>
+                    <button class="delete-item-button">Delete</button>
+                  </div>
+                </div>
+                <div class="delivery-option-box">
+                  Choose a delivery option:
+                  <div class="delivery-options">
+                    <input type="radio" name="delivery-date-option" />
+                    <div class="delivery-date-user-choice">Friday, June 4</div>
+                    <div class="shipping-cost">FREE Shipping</div>
+                  </div>
+                  <div class="delivery-options">
+                    <input type="radio" name="delivery-date-option" />
+                    <div class="delivery-date-user-choice">Friday, June 4</div>
+                    <div class="shipping-cost">FREE Shipping</div>
+                  </div>
+                  <div class="delivery-options">
+                    <input type="radio" name="delivery-date-option" />
+                    <div class="delivery-date-user-choice">Friday, June 4</div>
+                    <div class="shipping-cost">FREE Shipping</div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <div class="order-summary-box">
+            <div class="order-summary-title">Order Summary</div>
+            <div class="order-price-data">
+              <div class="text-items">
+                Items (<span class="total-items-quantity">0</span>):
+              </div>
+              <div class="total-amount-items">$0</div>
+            </div>
+            <div class="order-price-data">
+              <div class="text-items">Shipping & Handling Fees:</div>
+              <div class="total-shipping-amount">$0</div>
+            </div>
+            <div class="tax-spacer">
+              <div class="empty-space">&ThickSpace;</div>
+              <div class="div-divider"></div>
+            </div>
+            <div class="order-price-data">
+              <div class="text-items">Total before tax:</div>
+              <div class="total-amount-before-tax">$29.98</div>
+            </div>
+            <div class="order-price-data">
+              <div class="text-items">Estimated tax (5%):</div>
+              <div class="total-tax-amount">$2.98</div>
+            </div>
+            <div class="div-divider1"></div>
+            <div class="order-price-data-final">
+              <div class="text-items">Order Total:</div>
+              <div class="total-amount">$33.96</div>
+            </div>
+            <div class="use-paypal">
+              Use PayPal
+              <input
+                style="margin-left: 5px"
+                type="checkbox"
+                class="paypal-checkbox"
+                name="payment-option"
+              />
+            </div>
+            <div class="use-paypal">
+              Use PayTM
+              <input
+                type="checkbox"
+                class="paypal-checkbox"
+                name="payment-option"
+              />
+            </div>
+            <div class="use-paypal">
+              Use GPay
+              <input
+                style="margin-left: 16px; margin-bottom: 20px"
+                type="checkbox"
+                class="paypal-checkbox"
+                name="payment-option"
+              />
+            </div>
+            <div class="place-your-order-box">
+              <a href="returns-orders.html">
+                <button class="place-your-order-button">
+                  Place your order
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="amazon_checkout_re.js"></script>
+  </body>
+</html>
